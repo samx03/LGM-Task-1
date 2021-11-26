@@ -171,7 +171,10 @@ h2{
     color: #ffff00;
     background-color: #800080;
 }
-
+.feature-cards a:hover{
+    background-color: #ffff00;
+    color: #800080;
+}
 .projects-section, .pricing-section, .blog-section{
     margin-top: 5%;
 }
@@ -188,6 +191,9 @@ h2{
 }
 .project-cards{
     background-color: #e7e7e7;
+}
+.project-cards:hover{
+    background-color: #ffff00;
 }
 .project-cards div{
     padding-left: 5%;
@@ -218,6 +224,10 @@ h2{
     border-radius: 5px;
     color: #ffff00;
     background-color: #800080;
+}
+.pricing-cards a:hover, .blog-cards a:hover{
+    background-color: #ffff00;
+    color: #800080;
 }
 
 
